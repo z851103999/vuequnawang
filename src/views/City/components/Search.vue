@@ -11,8 +11,9 @@
       <ul>
         <li class="search-item border-bottom"
             v-for="(city,index) in cityList"
-            :key="index">{{city}}
-            @click="handleCityClick(item.name)"
+            :key="index"
+            @click="handleCityClick(item.name)">{{city}}
+            
         </li>
         <li class="search-item border-bottom" v-show="hasCity">没有找到匹配资源</li>
       </ul>

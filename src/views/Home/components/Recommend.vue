@@ -7,7 +7,7 @@
         class="item border-bottom"
         v-for="item in hotList"
         :key="item.id"
-        :to="'/detail/' + item.id"
+        :to="'/detail/'"
         ref="bussinessTypeRef"
       >
         <img class="item-img" :src="item.imgUrl" />

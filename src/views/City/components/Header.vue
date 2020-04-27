@@ -2,7 +2,7 @@
   <div class="header">
     <router-link to="/">
       <div class="header-left">
-        <div class="iconfont back-icon">&#xe606;</div>
+        <div class="iconfont back-icon">&#xe632;</div>
       </div>
     </router-link>选择城市
   </div>
@@ -26,13 +26,13 @@ export default {
   font-size: 0.32rem;
 
   .header-left {
-      color: #fff;
-      top: 0;
-      left: 0;
-      font-size: 0.4rem;
-      width: 0.64rem;
-      position:absolute;
-      text-align: center;
+    color: #fff;
+    top: 0;
+    left: 0;
+    font-size: 0.4rem;
+    width: 0.64rem;
+    position: absolute;
+    text-align: center;
   }
 }
 </style>
